@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amber & Oak Coffee Roasters</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ============ HEADER / NAV ============ -->
+    <header class="header">
+        <div class="container nav">
+            <a href="#top" class="logo"><i class="fa-solid fa-mug-hot"></i> Amber &amp; Oak</a>
+
+            <button class="menu-btn" id="menuBtn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <nav class="nav-menu" id="navMenu">
+                <button class="close-btn" id="closeBtn">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <a href="#top" class="nav-link">Home</a>
+                <a href="#story" class="nav-link">Our Story</a>
+                <a href="#menu" class="nav-link">Menu</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="#reviews" class="nav-link">Reviews</a>
+                <a href="#visit" class="nav-link nav-btn">Visit Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ============ HERO ============ -->
+    <section id="top" class="hero">
+        <div class="container hero-box">
+            <p class="small-title">Roasted in small batches, every Tuesday</p>
+            <h1 class="hero-title">Slow roast.<br>Honest coffee.</h1>
+            <p class="hero-text">We source directly from twelve family farms and roast in
+                12kg batches so every cup tastes like where it came from.</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-main">View the Menu</a>
+                <a href="#visit" class="btn btn-outline">Find Our Roastery</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ STORY / ABOUT ============ -->
+    <section id="story" class="story container">
+        <div class="story-img-box">
+            <img src="images/2.jpg" alt="Roaster pouring fresh beans into a cooling tray">
+            <div class="story-badge">
+                <i class="fa-solid fa-leaf"></i>
+                <span>Since 2014</span>
+            </div>
+        </div>
+
+        <div class="story-info">
+            <p class="small-title">Our Story</p>
+            <h2 class="story-title">Coffee is a conversation between farmer and roaster.</h2>
+            <p class="story-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis at, temporibus dolorum odit odio quae? Alias quae rerum nesciunt, illum sint, aliquam delectus facere modi, ipsum sed eos atque deleniti.</p>
+            <p class="story-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis at, temporibus dolorum odit odio quae? </p>
+            <ul class="stats-list">
+                <li class="stat-item">
+                    <i class="fa-solid fa-earth-americas"></i>
+                    <div>
+                        <strong>12</strong>
+                        <span>Origin farms</span>
+                    </div>
+                </li>
+                <li class="stat-item">
+                    <i class="fa-solid fa-fire"></i>
+                    <div><strong>3</strong><span>Roast profiles</span></div>
+                </li>
+                <li class="stat-item">
+                    <i class="fa-solid fa-seedling"></i>
+                    <div><strong>100%</strong><span>Direct trade</span></div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ============ MENU ============ -->
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <p class="small-title center-text">On the Menu</p>
+            <h2 class="section-title center-text">Brewed &amp; Baked Today</h2>
+
+            <div class="menu-list">
+
+                <div class="menu-card">
+                    <div class="menu-img-box">
+                        <img src="images/3.jpg" alt="Double espresso shot in a small white cup">
+                        <span class="tag tag-dark">Dark Roast</span>
+                    </div>
+                    <div class="menu-card-body">
+                        <div class="menu-card-top">
+                            <h3>Espresso</h3><span class="price">$3.50</span>
+                        </div>
+                        <p>Double shot, syrupy body, notes of dark chocolate and toasted hazelnut.</p>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <div class="menu-img-box">
+                        <img src="images/4.jpg" alt="Pour over coffee dripping through a filter">
+                        <span class="tag tag-light">Light Roast</span>
+                    </div>
+                    <div class="menu-card-body">
+                        <div class="menu-card-top">
+                            <h3>Pour Over</h3><span class="price">$5.00</span>
+                        </div>
+                        <p>Single-origin Ethiopian, floral aroma, bright citrus finish.</p>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <div class="menu-img-box">
+                        <img src="images/5.jpg" alt="Cappuccino with latte art on a wooden table">
+                        <span class="tag tag-medium">Medium Roast</span>
+                    </div>
+                    <div class="menu-card-body">
+                        <div class="menu-card-top">
+                            <h3>Cappuccino</h3><span class="price">$4.50</span>
+                        </div>
+                        <p>Equal parts espresso, steamed milk and microfoam. A café classic.</p>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <div class="menu-img-box">
+                        <img src="images/6.jpg" alt="Glass of cold brew coffee with ice">
+                        <span class="tag tag-dark">Cold Brew</span>
+                    </div>
+                    <div class="menu-card-body">
+                        <div class="menu-card-top">
+                            <h3>Cold Brew</h3><span class="price">$4.75</span>
+                        </div>
+                        <p>Steeped 18 hours. Smooth, low acidity, naturally sweet.</p>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <div class="menu-img-box">
+                        <img src="images/7.jpg" alt="Fresh butter croissant on a plate">
+                        <span class="tag tag-bake">Bakery</span>
+                    </div>
+                    <div class="menu-card-body">
+                        <div class="menu-card-top">
+                            <h3>Butter Croissant</h3><span class="price">$3.25</span>
+                        </div>
+                        <p>Laminated fresh each morning by our in-house baker, Sam.</p>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <div class="menu-img-box">
+                        <img src="images/8.jpg" alt="Slice of banana bread with walnuts">
+                        <span class="tag tag-bake">Bakery</span>
+                    </div>
+                    <div class="menu-card-body">
+                        <div class="menu-card-top">
+                            <h3>Banana Walnut Loaf</h3>
+                            <span class="price">$3.75</span>
+                        </div>
+                        <p>Made with over-ripe bananas from the market next door.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <p class="small-title center-text">Inside the Roastery</p>
+            <h2 class="section-title center-text">A Peek Behind the Counter</h2>
+
+            <div class="gallery-list">
+                <img src="images/9.jpg" alt="Bags of green coffee beans stacked" class="gallery-img">
+                <img src="images/10.jpg" alt="Barista steaming milk" class="gallery-img">
+                <img src="images/11.jpg" alt="Hand holding roasted coffee beans" class="gallery-img">
+                <img src="images/12.jpg" alt="Roastery counter and shelves" class="gallery-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <p class="small-title center-text">Reviews</p>
+            <h2 class="section-title center-text">What Regulars Say</h2>
+
+            <div class="reviews-list">
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="review-text">"The pour over changed how I think about coffee. I plan my mornings around
+                        it."</p>
+                    <div class="review-person">
+                        <img src="images/13.jpg" alt="Portrait of Layla, a customer">
+                        <div><strong>Layla H.</strong><span>Regular since 2019</span></div>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p class="review-text">"Great spot to work from. Fast wifi, better espresso, and the banana loaf is
+                        unreal."
+                    </p>
+                    <div class="review-person">
+                        <img src="images/14.jpg" alt="Portrait of Marco, a customer">
+                        <div><strong>Marco D.</strong><span>Remote worker</span></div>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i></div>
+                    <p class="review-text">"You can actually taste the difference between their three origins. Staff
+                        explain it
+                        without being precious
+                        about it."</p>
+                    <div class="review-person">
+                        <img src="images/15.jpg " alt="Portrait of Priya, a customer">
+                        <div><strong>Priya S.</strong><span>Coffee enthusiast</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ VISIT / CONTACT ============ -->
+    <section id="visit" class="visit">
+        <div class="container visit-box">
+
+            <div class="visit-info">
+                <p class="small-title">Get In Touch</p>
+                <h2 class="visit-title">Come Say Hello</h2>
+                <p class="visit-text">Have a question, a catering request, or want to buy beans wholesale? Send us a
+                    note.</p>
+
+                <ul class="info-list">
+                    <li><i class="fa-solid fa-location-dot"></i> 14 Mill Lane, Riverside District</li>
+                    <li><i class="fa-solid fa-phone"></i> (555) 214-0192</li>
+                    <li><i class="fa-solid fa-envelope"></i> hello@amberandoak.coffee</li>
+                </ul>
+
+                <table class="hours-table">
+                    <tr>
+                        <td>Mon &ndash; Fri</td>
+                        <td>7:00am &ndash; 6:00pm</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td>8:00am &ndash; 6:00pm</td>
+                    </tr>
+                    <tr>
+                        <td>Sunday</td>
+                        <td>8:00am &ndash; 3:00pm</td>
+                    </tr>
+                </table>
+
+                <div class="social-list">
+                    <a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+
+            <form class="contact-form" action="#" method="post">
+                <h3 class="form-title">Send a Message</h3>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="you@email.com" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <select id="subject" name="subject">
+                        <option>General question</option>
+                        <option>Wholesale / bulk beans</option>
+                        <option>Catering</option>
+                        <option>Feedback</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Tell us how we can help"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-main full-width">
+                    <i class="fa-solid fa-paper-plane"></i> Send Message
+                </button>
+            </form>
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-box">
+                <a href="#top" class="logo logo-light"><i class="fa-solid fa-mug-hot"></i> Amber &amp; Oak</a>
+                <p>Small-atch coffee roasters, direct-trade beans, honslty brwed since 2014.</p>
+            </div>
+
+            <div class="footer-box">
+                <h4>Quick Links</h4>
+                <a href="#story">Our Story</a>
+                <a href="#menu">Menu</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#reviews">Reviews</a>
+            </div>
+
+
+            <div class="footer-box">
+                <h4>Hours</h4>
+                <p>Mon &ndash; Fri: 7am &ndash; 6pm</p>
+                <p>Saturday: 8am &ndash; 6am</p>
+                <p>Sunday: 8am &ndash; 3pm</p>
+            </div>
+
+            <div class="footer-box">
+                <h4>Stay In The Loop.</h4>
+                <p>One email a month. New origins, roast days, zero spam.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email" required>
+                    <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                </form>
+            </div>
+
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Amber &amp; Oak Coffee Roasters. All right reserved</p>
+            <p>built for the HTML &amp; Css capstone project</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
